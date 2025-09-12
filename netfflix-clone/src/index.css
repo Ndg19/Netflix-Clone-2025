@@ -3,17 +3,6 @@
   /* Font families */
   --font-base: 'Inter', sans-serif;       /* main body font */
   --font-secondary: 'Lexend', sans-serif; /* headings or accents */
-
-  /* Font sizes */
-  --font-size-base: 16px;
-  --font-size-lg: 20px;
-  --font-size-sm: 14px;
-
-  /* Colors */
-  --color-primary: #e50914; /* Netflix red */
-  --color-background: #141414;
-  --color-white: #fff;
-  --color-grey: #b3b3b3;
 }
 *{
     margin: 0;

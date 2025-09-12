@@ -73,13 +73,13 @@
 }
 
 .account-dropdown .avatar {
-  font-size: 30px;
+  font-size: 28px;
   color: #fff;
   cursor: pointer;
 }
 
 .account-dropdown .icon {
-  font-size: 50px;  /* smaller dropdown */
+  font-size: 28px;  /* smaller dropdown */
   color: #fff;
   cursor: pointer;
 }
