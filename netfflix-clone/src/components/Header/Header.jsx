@@ -13,9 +13,6 @@ const Header = () => {
       <div className="header-left">
         <span className="logo">Netflix</span>
         <ul className="nav-links">
-          {/* <li className="logo">
-            <img src={NetflixLogo} alt="netflixlogo" />
-          </li> */}
           <li>
             <a href="#">Netflix</a>
           </li>

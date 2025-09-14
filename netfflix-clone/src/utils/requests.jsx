@@ -2,15 +2,16 @@ const API_KEY = import.meta.env.VITE_API_KEY;
 
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
-  fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
+  fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213&language=en-US`,
   fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
-  fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
-  fetchComedyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
-  fetchHorrorMovies: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
-  fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
-  fetchMysteryMovies: `/discover/movie?api_key=${API_KEY}&with_genres=9648`,
-  fetchSciFiMovies: `/discover/movie?api_key=${API_KEY}&with_genres=878`,
-  fetchWesternMovies: `/discover/movie?api_key=${API_KEY}&with_genres=37`,
+  fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28&language=en-US`,
+  fetchComedyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35&language=en-US`,
+  fetchHorrorMovies: `/discover/movie?api_key=${API_KEY}&with_genres=27&language=en-US`,
+  fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749&language=en-US`,
+  fetchMysteryMovies: `/discover/movie?api_key=${API_KEY}&with_genres=9648&language=en-US`,
+  fetchSciFiMovies: `/discover/movie?api_key=${API_KEY}&with_genres=878&language=en-US`,
+  fetchWesternMovies: `/discover/movie?api_key=${API_KEY}&with_genres=37&language=en-US`,
+  fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99&language=en-US`,
 };
 
 export default requests;
