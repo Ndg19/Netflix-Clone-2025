@@ -1,5 +1,5 @@
 .header {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -12,6 +12,7 @@
   z-index: 1000;
 }
 
+/* Left */
 .header-left {
   display: flex;
   align-items: center;
@@ -20,7 +21,7 @@
 
 .logo {
   color: #e50914;
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
   cursor: pointer;
 }
@@ -28,65 +29,47 @@
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 18px;
   margin: 0;
   padding: 0;
 }
 
 .nav-links li a {
   color: #fff;
+  font-size: 15px;
   text-decoration: none;
-  font-size: 17px;
+  transition: color 0.2s;
 }
 
 .nav-links li a:hover {
   color: #b3b3b3;
 }
 
-/* Right side */
+/* Right */
 .header-right {
   display: flex;
+  align-items: center;
+  gap: 20px;
   list-style: none;
-  gap: 15px;
   margin: 0;
   padding: 0;
-  align-items: center;
 }
 
-/* Normal icons */
-.header-right .icon {
+.header-right .icon,
+.header-right .avatar {
+  font-size: 26px; /* ✅ all same size */
   color: #fff;
-  font-size: 28px;
   cursor: pointer;
-  transition: 0.2s;
+  transition: color 0.2s;
 }
 
-.header-right .icon:hover {
+.header-right .icon:hover,
+.header-right .avatar:hover {
   color: #a18c8c;
 }
 
-/* Account + dropdown inside list item */
 .account-dropdown {
   display: flex;
   align-items: center;
-  gap: 1px;      /* space between avatar and arrow */
+  gap: 3px;
 }
-
-.account-dropdown .avatar {
-  font-size: 28px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.account-dropdown .icon {
-  font-size: 28px;  /* smaller dropdown */
-  color: #fff;
-  cursor: pointer;
-}
-
-/* Hover effect */
-.account-dropdown .avatar:hover,
-.account-dropdown .icon:hover {
-  color: #a18c8c;
-}
-
