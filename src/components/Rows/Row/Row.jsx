@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "../../../utils/axios"; // custom axios instance
 import movieTrailer from "movie-trailer";
 import YouTube from "react-youtube";
-import "./Row.css";
+import "./row.css";
 
 const base_url = "https://image.tmdb.org/t/p/original/";
 
