@@ -8,7 +8,6 @@
     "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "postbuild": "vite build && cp dist/index.html dist/404.html",
     "build": "vite build",
     "preview": "vite preview"
   },
